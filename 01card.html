@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>using flex concept</title>
+	<style type="text/css">
+		.my_container{
+
+			display: flex;
+			flex-direction: row;
+
+		}
+		.my_img {
+			width: 100%;
+			
+		}
+		.col1{
+			width: 33.3%;
+
+		}
+		.col2{
+			width: 33.3%
+
+		}
+		.col3{
+			width: 33.3%
+		}
+		.col4{
+			width: 25%;
+
+		}
+		.col5{
+			width: 25%
+
+		}
+		.col6{
+			width: 25%
+		}
+		.col7{
+			width: 25%
+		}
+
+		@media only screen and (max-width: 600px){
+			.my_container{
+
+			display: flex;
+			flex-direction: column;
+		}
+		.col1{
+			width: 100%;
+
+		}
+		.col2{
+			width: 100%
+
+		}
+		.col3{
+			width: 100%
+		}
+		.col4{
+			width: 100%;
+
+		}
+		.col5{
+			width: 100%
+
+		}
+		.col6{
+			width: 100%
+		}
+		.col7{
+			width: 100%
+		}
+
+
+
+
+		}	
+		
+	</style>
+</head>
+<body>
+	<div class="my_container">
+		<div class="col1">
+			<img src="assest/gallery/icon card.PNG" class="my_img">
+		</div>
+		<div class="col2">
+			<img src="assest/gallery/icon card.PNG" class="my_img">
+		</div>
+		<div class="col3">
+			<img src="assest/gallery/icon card.PNG"class="my_img">
+		</div>
+	</div>
+
+	<div class="my_container">
+		<div class="col4">
+			<img src="assest/gallery/icon card.PNG" class="my_img">
+		</div>
+		<div class="col5">
+			<img src="assest/gallery/icon card.PNG" class="my_img">
+		</div>
+		<div class="col6">
+			<img src="assest/gallery/icon card.PNG"class="my_img">
+		</div>
+		<div class="col7">
+			<img src="assest/gallery/icon card.PNG"class="my_img">
+		</div>
+	</div>
+
+</body>
+</html>
